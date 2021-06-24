@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="stylec.css">
+</head>
+<body style="background-image: url('college.jpg');">
+
+<div class="topnav" id="myTopnav">
+  <a href="indexc.html" class="active">Home</a>
+  <a href="#news">Abot Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Admissions 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="StudentRegistration.html">Registration</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">Academics 
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Academic Calender</a>
+      <a href="#">Time Tables</a>
+      <a href="#">Examinations</a>
+    </div>
+   </div>
+   <div class="dropdown">
+    <button class="dropbtn">Departments 
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="cse.html">Computer Science and Engineering</a>
+      <a href="ece.html">Electronics and Communication Engineering</a>
+      <a href="me.html">Mechanical Engineering</a>
+      <a href="civil.html">Civil Engineering</a>
+      <a href="#">Chemical Engineering</a>
+      <a href="#">Agricultural Engineering</a>
+      <a href="#">Mining and Metullurgical Engineering</a>
+    </div>
+   </div> 
+  <a href="#contact">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">Students
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="StudentLogin.html">Login</a>
+    </div>
+  </div> 
+
+  <div class="dropdown">
+    <button class="dropbtn">Hostel
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="login.html">Login</a>
+    </div>
+  </div> 
+
+  <a href="#contact">Faculty</a>
+  <a href="#contact">Admin</a>
+  
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px;">
+  <h2>Welcome to College Management System</h2>
+  <p>Hello.</p>
+  <p>You are welcome to our college portal.</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
